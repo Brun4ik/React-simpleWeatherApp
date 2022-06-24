@@ -1,8 +1,10 @@
 import React from "react";
+import "./App.css"
+import InputArea from "./components/InputArea";
 function App() {
   return (
-    <div className="App">
-    <h1>Weather APP</h1>
+    <div className="App" style={{}}>
+      <InputArea/>
     </div>
   );
 }

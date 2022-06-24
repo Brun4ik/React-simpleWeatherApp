@@ -1,0 +1,19 @@
+
+.Page {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InputArea {
+    background: hsla(0,0%,98%,.85);
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 5%;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+}
