@@ -2,8 +2,8 @@ import React from 'react';
 
 const City = () => {
     return (
-        <div>
-            
+        <div className= "City">
+
         </div>
     );
 };
