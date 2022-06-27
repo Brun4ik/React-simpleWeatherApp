@@ -4,6 +4,7 @@ import City from "./components/City";
 import {fetchWeather} from "./Api/Fetch";
 import MyInput from "./components/MyInput";
 import Temp from "./components/Temp";
+import ListCitys from "./components/ListCitys";
 function App() {
     const [city, setCity] = useState("");
     const [weather, setWeather] =useState({})
@@ -36,11 +37,15 @@ function App() {
             />
         </div>
         {weather.main && (
-            <div className= "City">
-                <City weather={weather} value={city} city={setCity}/>
-                <Temp weather={weather}/>
-                <h2>{weather.weather[0].description}</h2>
+            <div className="CentralContent">
+                <ListCitys/>
+                <div className= "City">
+                    <City weather={weather} value={city} city={setCity}/>
+                    <Temp weather={weather}/>
+                    <h2>{weather.weather[0].description}</h2>
+                </div>
             </div>
+
 
         )}
     </div>

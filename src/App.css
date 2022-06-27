@@ -42,7 +42,9 @@ body {
     flex-direction: column;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 250px
+    padding-bottom: 250px;
+    margin-left: 100px;
+    margin-right: 300px;
 }
 
 .header {
@@ -59,4 +61,9 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+.CentralContent {
+    display: flex;
+    flex-direction: row;
 }

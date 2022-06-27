@@ -3,7 +3,7 @@ import "./style.css"
 
 const Temp = ({weather}) => {
     return (
-        <div className="tempeature">
+        <div className="CityTempeature">
             {Math.round(weather.main.temp)} &deg;C
         </div>
     );
