@@ -1,9 +1,15 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
-const City = () => {
+const City = ({weather}) => {
+
+    let Timer = () => {
+
+    }
+
     return (
-        <div className= "City">
-
+        <div >
+            <div style={{paddingBottom: '10px', paddingTop: "20px", fontSize: "24px"}}>{weather.name}</div>
+            <div style={{paddingBottom: '10px', paddingTop: "20px", fontSize: "24px"}}>{new Date().toDateString("ru")}</div>
         </div>
     );
 };
